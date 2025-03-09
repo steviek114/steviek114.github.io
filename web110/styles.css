@@ -28,4 +28,5 @@ p {
 
 ul {
     text-align: center;
+    display: inline-block;
 }
