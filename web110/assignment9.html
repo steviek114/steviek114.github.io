@@ -17,12 +17,15 @@
     }
 </style>
   </head>
-  <h1>Inline CSS</h1>
-  <p style="background-color: rgb(21, 255, 0); padding: 10px;">This paragraph is styled using Inline CSS</p>
-  <h2>Internal CSS</h2>
-  <p class="internal">This paragraph is styled using Internal CSS</p>
+  <h1>CSS</h1>
+  <p>In session 9 covered CSS. CSS is a stylesheet language that dictates the look and style of a website. There are three ways you can input CSS onto a web page: external, internal, and inline. External keeps the CSS code in a separate file stored on the same network. Internal keeps all of the CSS inside the style element of the HTML code. Finally, inline has the CSS injected directly into the code of HTML itself.</p>
+  <h2>Inline CSS</h2>
+  <p style="background-color: rgb(21, 255, 0); padding: 10px;">Inline CSS could complicate the layout of one's code, but it has its benefits when a specific element needs to be styled uniquely or excluded from external CSS. This paragraph is styled using Inline CSS.</p>
+  <h3>Internal CSS</h3>
+  <p class="internal">
+    Internal CSS is defined within an HTML document, inside the style tag. I found internal CSS much more manageable than inline CSS. Inline CSS felt messy, whereas internal CSS is all kept inside the head section of the HTML code. I can see internal CSS being useful for single web pages or smaller, less complex websites. Side note: I did have to make a class for the internal paragraph so that It did not conflict with my external CSS sheet. This paragraph is styled using Internal CSS</p>
 <h3>External CSS</h3>
-<p>This paragraph is styled using External CSS</p>
+<p>External CSS is when the CSS code is stored in a separate file outside of the HTML code. To access it, one needs a link element to tell the browser where to pull the code from. External CSS is my favorite because it keeps all of the CSS code in one spot, which helps with organizing and editing. If there's a problem with my webpages, I can pull the CSS file out and diagnose the issue without having to change any of the HTML code. External CSS files are ideal for larger, more complex projects or websites. This paragraph is styled using External CSS</p>
   <body> 
 </body>
 </html>
