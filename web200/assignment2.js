@@ -1,4 +1,3 @@
-
 var studentName = "John";
 let favoriteNumber = 42;
 const learningJavaScript = true;
