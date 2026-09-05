@@ -53,21 +53,19 @@ const students = [
 ];
 
 
-// This function randomly selects one student.
+
 
 function generateStudent() {
 
-    // Math.random() creates a random decimal between 0 and 1.
-    // Math.floor() rounds the number down to a whole number.
+ 
 
     let randomNumber = Math.floor(Math.random() * students.length);
 
-    // Use the random number to select a student from the array.
-
+  
     selectedStudent = students[randomNumber];
 
 
-    // Display the selected student's information on the webpage.
+    
 
     document.getElementById("studentName").innerHTML = selectedStudent.name;
 
@@ -80,7 +78,6 @@ function generateStudent() {
     document.getElementById("isStudent").innerHTML = selectedStudent.isStudent;
 
 
-    // Create a funny message using the selected student's information.
 
     document.getElementById("message").innerHTML =
         selectedStudent.name +
