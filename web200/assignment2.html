@@ -3,22 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assignment 2 - JavaScript Variables</title>
+    <title>Assignment 2 - Random Student Generator</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
-    <h1>My Totally Scientific Student Profile</h1>
+    <h1>Random Student Generator</h1>
 
-    <p><strong>Student Name:</strong> <span id="studentName"></span></p>
-    <p><strong>Favorite Number:</strong> <span id="favoriteNumber"></span></p>
-    <p><strong>Is Learning JavaScript Fun?</strong> <span id="learningJavaScript"></span></p>
+    <p>Click the button to randomly select a student!</p>
 
-    <h2>Important Scientific Findings</h2>
+    <button onclick="generateStudent()">Generate Random Student</button>
+
+    <h2>Student Information</h2>
+
+    <p><strong>Name:</strong> <span id="studentName"></span></p>
+
+    <p><strong>Age:</strong> <span id="studentAge"></span></p>
+
+    <p><strong>Favorite Game:</strong> <span id="favoriteGame"></span></p>
+
+    <p><strong>Favorite Food:</strong> <span id="favoriteFood"></span></p>
+
+    <p><strong>Is a Student:</strong> <span id="isStudent"></span></p>
+
+    <h2>Scientific Analysis</h2>
+
     <p id="message"></p>
 
     <script src="assignment2.js"></script>
 
 </body>
-</html
+</html>
