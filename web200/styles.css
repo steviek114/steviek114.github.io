@@ -40,3 +40,18 @@ ul li {
     display: inline-block; 
     padding: 10px; 
 }
+
+
+#eventBox {
+    background-color: lightgray;
+    padding: 30px;
+    margin: 20px auto;
+    max-width: 300px;
+    cursor: pointer;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
