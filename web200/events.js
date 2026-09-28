@@ -18,7 +18,7 @@ document.getElementById("clickButton").addEventListener("click", function() {
 
 document.getElementById("eventBox").addEventListener("mouseover", function() {
     document.getElementById("eventBox").innerHTML =
-        "You found me!";
+        "Dang it! You found me!";
 
     document.getElementById("eventBox").style.backgroundColor =
         "red";
