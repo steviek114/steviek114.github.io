@@ -8,7 +8,7 @@ window.addEventListener("load", function() {
 
 document.getElementById("clickButton").addEventListener("click", function() {
     document.getElementById("message").innerHTML =
-        "You clicked the button! Nice job.";
+        "Ouch that hurt! :(";
 
     document.getElementById("clickButton").innerHTML =
         "Clicked!";
@@ -21,7 +21,7 @@ document.getElementById("eventBox").addEventListener("mouseover", function() {
         "You found me!";
 
     document.getElementById("eventBox").style.backgroundColor =
-        "lightblue";
+        "red";
 });
 
 
